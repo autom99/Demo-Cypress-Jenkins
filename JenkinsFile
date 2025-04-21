@@ -6,13 +6,6 @@ pipeline {
         choice(name: 'BROWSER', choices: ['chrome', 'firefox','edge'], description: 'Browser to run tests on')
     }
 
-    options {
-        ansiColor('xterm')
-        timeout(time: 60, unit: 'MINUTES')
-        timestamps()
-        disableConcurrentBuilds()
-    }
-
     stages {
          stage('Build'){
             //The steps section defines a series of one or more steps to be executed in a given stage directive.

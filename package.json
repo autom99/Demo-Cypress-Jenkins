@@ -1,0 +1,29 @@
+{
+  "name": "cypressgenericframework",
+  "version": "1.0.0",
+  "description": "TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://imriel-qa-core@dev.azure.com/imriel-qa-core/IMRIEL%20-%20QA/_git/CypressGenericFramework"
+  },
+  "keywords": [
+    "Cypress",
+    "BDD"
+  ],
+  "author": "Yashkumar Chavda",
+  "license": "ISC",
+  "devDependencies": {
+    "ajv": "^8.11.0",
+    "cypress": "^9.7.0"
+  },
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

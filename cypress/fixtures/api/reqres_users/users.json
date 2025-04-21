@@ -1,0 +1,51 @@
+{
+  "type": "object",
+  "properties": {
+    "per_page": {
+      "type": "integer"
+    },
+    "total": {
+      "type": "integer"
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "last_name": {
+            "type": "string"
+          },
+          "id": {
+            "type": "integer"
+          },
+          "avatar": {
+            "type": "string"
+          },
+          "first_name": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "page": {
+      "type": "integer"
+    },
+    "total_pages": {
+      "type": "integer"
+    },
+    "support": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
